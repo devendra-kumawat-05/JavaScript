@@ -31,3 +31,28 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 console.log(typeof temp);
 console.log(typeof myFunction);
+
+
+// ********************************************
+
+// Stack => Primitive
+// Heap => Non-Primitive 
+
+let myName = "devendrakumawatt";
+
+let anotherName = myName;
+anotherName = "kumawatDevendra";
+
+console.log(myName);
+console.log(anotherName);
+
+let user1 = {
+    email : "devndrakumar@gmail.com",
+    age : 21
+}
+
+let user2 = user1;
+user1.email = "dev@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);

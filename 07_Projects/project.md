@@ -36,6 +36,7 @@ buttons.forEach((button) => {
 });
 
 ```
+##
 ## project - 2
 
 ```javascript
@@ -60,6 +61,30 @@ form.addEventListener('submit', (e) => {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+
+
+```
+
+## 
+## project - 3
+
+``` javascript
+console.log("Devendra | Project - 3");
+const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock');
+
+setInterval(() => {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
+##
+## project - 4
+
+``` javascript
+console.log("Devendra | Project - 4");
 
 
 ```
